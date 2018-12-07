@@ -1,3 +1,24 @@
+
+<% if cart.size == 0 %>
+
+<section class="categories-show">
+
+  <header class="page-header">
+    <h1>
+      BRO! you've got nothing in your cart! Look! 
+    </h1> 
+  </header>
+
+  <div>
+      <h4><%= fa_icon "shopping-cart" %> MY CART ... (<%= cart.size %>)</h4> 
+  </div>
+
+</section>
+
+<%= link_to "Go back and buy something!", root_path, class: 'btn btn-lg btn-primary' %>
+
+<% else %> 
+
 <section class="cart-show">
 
   <header class="page-header">
@@ -50,3 +71,5 @@
   </div>
 
 </section>
+
+<% end %>
