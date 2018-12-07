@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com, <%= @user.firstName %></h1>
+    
+      <div class="order-summary jumbotron">
+      <%= render @order%>
+    <h5>Total
+     <%= @order.total_cents / 100.0 %>
+     </h5>
+    <h4>Thank you for your order!</h4>
+  </div>
+  </body>
+</html>

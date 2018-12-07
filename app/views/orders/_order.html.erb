@@ -12,12 +12,12 @@
   <td> Product Price:
     <%= item.product.price %>
   </td>
-  <td>Quantity: 
+    <td>Quantity: 
     <%= item.quantity %>
   </td>
-  <%# <td>
-    <%= item.product.price * item.product.quantity %>
-  <%# </td> %>
+  <td> Subtotal for Product:
+    <%= item.product.price * item.quantity %>
+  </td>
 </tr>
 
 <%end%>

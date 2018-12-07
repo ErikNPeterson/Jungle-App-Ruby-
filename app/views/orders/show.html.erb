@@ -4,13 +4,14 @@
     <h1>Order #<%= @order.id %> for <%= current_user.email %></h1>
     
   </header>
-   <tbody>
-          <%= render @order %>
-      </tbody>
+  
     </table>
   </div>
 
   <div class="order-summary jumbotron">
+   <tbody>
+          <%= render @order %>
+      </tbody>
     <h5>Total
      <%= @order.total_cents / 100.0 %>
      </h5>
