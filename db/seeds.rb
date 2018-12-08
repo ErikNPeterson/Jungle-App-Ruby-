@@ -132,5 +132,21 @@ cat3.products.create!({
   price: 2_483.75
 })
 
+user1 = User.create!({
+  firstName: "Jack",
+  lastName: "Black",
+  email: "joeblow@gmail.com",
+  password_digest: BCrypt::Password.create('joeblow')
+  })
+
+
+30.times do
+  Review.create!(
+    product_id: rand(1..12),
+    user_id: 1,
+    description: Faker::TvShows::RickAndMorty.quote,
+    rating: rand(1..5)
+  )
+end
 
 puts "DONE!"

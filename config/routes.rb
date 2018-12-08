@@ -2,7 +2,14 @@ Rails.application.routes.draw do
 
   root to: 'products#index'
 
-  resources :products, only: [:index, :show]
+  resources :products, only: [:index, :show] do
+    resources :reviews, only: [:create]
+  end
+
+  # resources :products do
+  #   resources :reviews, only: [:create]
+  # end
+
   resources :categories, only: [:show]
 
   resource :cart, only: [:show] do
@@ -24,6 +31,9 @@ Rails.application.routes.draw do
     # receive the form and create a user in our database using the data given to us by the user.
     get '/signup' => 'users#new'
     post '/users' => 'users#create'
+
+    # attempting to createa route to handle a new review on a product
+
 
   namespace :admin do
     root to: 'dashboard#show'
