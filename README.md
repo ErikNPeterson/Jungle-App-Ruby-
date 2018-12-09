@@ -2,6 +2,12 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+!["Home Page"](https://github.com/ErikNPeterson/TinyApp/blob/master/docs/urls-page.png)
+!["Registration Page"](https://github.com/ErikNPeterson/TinyApp/blob/master/docs/registration-page.png)
+!["New URLs Page"](https://github.com/ErikNPeterson/TinyApp/blob/master/docs/urls::id-page.png..png)
+!["Home Page with list of URLs"](<https://github.com/ErikNPeterson/TinyApp/blob/master/docs/(URLSlist)urls-page.png>)
+
+
 
 ## Setup
 
