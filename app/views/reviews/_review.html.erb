@@ -7,5 +7,9 @@
           <dt>Star Rating</dt>
           <dd><%= review.rating %></dd>
         </dl>
+              <% if review.user_id == current_user.id %>
+            <%= button_to class: 'btn btn-xs btn-danger' %>
+          <% end %>
       </div>
+    
     </div>

@@ -26,6 +26,8 @@
       </div>
     </div>
 
+    <% if current_user %>
+
 <%# Form for review %>
  <header class="page-header">
     <h>Write a Review!</h>
@@ -68,7 +70,33 @@
   </div>
 
 
-
   </article>
+
+  <% else %>
+
+
+ <header class="page-header">
+    <h3>Please Login write a review!</h3>
+    <%= link_to 'Login', '/login' %> | <%= link_to 'Signup', '/signup' %>
+  </header>
+
+  <header class="page-header">
+    <h3>Reviews</h3>
+  </header>
+
+   <div class="panel panel-default products">
+    <table class="table table-bordered">
+
+      <tbody>
+        <% @reviews.order(created_at: :desc).each do |review| %>
+        <%= render review %>
+        <%end%>
+      </tbody>
+    </table>
+
+  </div>
+
+
+<% end %>
 
 </section>
