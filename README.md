@@ -1,11 +1,29 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2. 
 
-!["Home Page"](https://github.com/ErikNPeterson/TinyApp/blob/master/docs/urls-page.png)
-!["Registration Page"](https://github.com/ErikNPeterson/TinyApp/blob/master/docs/registration-page.png)
-!["New URLs Page"](https://github.com/ErikNPeterson/TinyApp/blob/master/docs/urls::id-page.png..png)
-!["Home Page with list of URLs"](<https://github.com/ErikNPeterson/TinyApp/blob/master/docs/(URLSlist)urls-page.png>)
+## Home Page
+!["Home Page"](https://github.com/ErikNPeterson/Jungle-App-Ruby-/blob/master/photos/Homepage.png)
+
+## Sign up
+!["Sign up"](https://github.com/ErikNPeterson/Jungle-App-Ruby-/blob/master/photos/signup.png)
+
+## User Login
+!["Login"](https://github.com/ErikNPeterson/Jungle-App-Ruby-/blob/master/photos/login.png)
+!["Login Name Display"](https://github.com/ErikNPeterson/Jungle-App-Ruby-/blob/master/photos/login_name_display.png)
+
+## Sold Out Notification
+!["Soldout"](https://github.com/ErikNPeterson/Jungle-App-Ruby-/blob/master/photos/soldout.png)
+
+## Cart Summary
+!["Cart Summary"](https://github.com/ErikNPeterson/Jungle-App-Ruby-/blob/master/photos/mycart.png)
+
+## Order Receipt
+!["Receipt Page/ Email"](https://github.com/ErikNPeterson/Jungle-App-Ruby-/blob/master/photos/Receipt_page.png)
+
+## Delete your product reviews
+!["Delete Review"](https://github.com/ErikNPeterson/Jungle-App-Ruby-/blob/master/photos/Delete_review.png)
+
 
 
 
